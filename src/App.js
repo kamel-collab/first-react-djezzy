@@ -44,6 +44,8 @@ export default App
 /**
  * url base : https://www.bahmedkamel.com
  * 
+ * products: https://www.bahmedkamel.com/wp-json/wc/v3/products
+ * 
  * login : https://www.bahmedkamel.com/?rest_route=/simple-jwt-login/v1/auth&username=admin&password=pass@pass
  * 
  * jwt : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDM1ODcyMjYsImV4cCI6MTcwMzU5MDgyNiwiZW1haWwiOiJhZG1pbkBiYWhtZWRrYW1lbC5jb20iLCJpZCI6IjEiLCJzaXRlIjoiaHR0cHM6XC9cL3d3dy5iYWhtZWRrYW1lbC5jb20iLCJ1c2VybmFtZSI6ImFkbWluIiwiaXNzIjoiaHR0cHM6XC9cL3d3dy5iYWhtZWRrYW1lbC5jb20ifQ.j6HAG32DZ0GJn6P_yxpncEbwQJ4NPYGR4Dh_7wH5aW4
