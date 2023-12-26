@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 function Produits() {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDM1ODcyMjYsImV4cCI6MTcwMzU5MDgyNiwiZW1haWwiOiJhZG1pbkBiYWhtZWRrYW1lbC5jb20iLCJpZCI6IjEiLCJzaXRlIjoiaHR0cHM6XC9cL3d3dy5iYWhtZWRrYW1lbC5jb20iLCJ1c2VybmFtZSI6ImFkbWluIiwiaXNzIjoiaHR0cHM6XC9cL3d3dy5iYWhtZWRrYW1lbC5jb20ifQ.j6HAG32DZ0GJn6P_yxpncEbwQJ4NPYGR4Dh_7wH5aW4"
+        const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDM1OTE3MDUsImV4cCI6MTcwMzU5NTMwNSwiZW1haWwiOiJhZG1pbkBiYWhtZWRrYW1lbC5jb20iLCJpZCI6IjEiLCJzaXRlIjoiaHR0cHM6XC9cL3d3dy5iYWhtZWRrYW1lbC5jb20iLCJ1c2VybmFtZSI6ImFkbWluIiwiaXNzIjoiaHR0cHM6XC9cL3d3dy5iYWhtZWRrYW1lbC5jb20ifQ.wrxAVVtMyzP0RVn-8RWgP4-c13fpTucvHw63PW2sClU"
         const config = {
             headers: { Authorization: 'Bearer ' + token }
         };
@@ -15,7 +15,7 @@ function Produits() {
             })
             .catch((error) => console.log(error))
     }, [])
-
+//
     return (
         <div className="container mt-3">
 
