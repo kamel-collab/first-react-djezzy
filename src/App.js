@@ -18,9 +18,7 @@ function App() {
               <li class="nav-item">
                 <Link className='nav-link' to="/">Produits</Link>
               </li>
-              <li class="nav-item">
-                <Link className='nav-link' to="/detail-produit">Detail Produit</Link>
-              </li>
+         
               <li class="nav-item">
                 <Link className='nav-link' to="/categories/create">Add categorie</Link>
               </li>
