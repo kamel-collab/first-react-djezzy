@@ -34,7 +34,7 @@ function Produits() {
                     {products.map((p,i)=>(<tr key={i}>
                         <td> <img src={p.images[0].src} width={50} height={50} alt="" /></td>
                         <td>{p.name}</td>
-                        <td>{p.price}</td>
+                        <td>{p.price} DA</td>
                     </tr>))}
                 </tbody>
             </table>
